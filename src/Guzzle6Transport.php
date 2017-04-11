@@ -1,6 +1,6 @@
 <?php
 
-namespace Vault\Transports;
+namespace VaultTransports;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\TransferException;
@@ -8,6 +8,7 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;
 use Vault\Exceptions\TransportException;
+use Vault\Transports\Transport;
 
 /**
  * Class Guzzle6Transport
