@@ -1,0 +1,20 @@
+{
+    "name": "csharpru/vault-php-guzzle6-trasnport",
+    "description": "Guzzle6 transport for Vault PHP client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Lukyanov",
+            "email": "c_sharp@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Vault\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.2",
+        "guzzlehttp/psr7": "^1.4",
+        "guzzlehttp/promises": "^1.3"
+    }
+}
