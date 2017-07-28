@@ -30,7 +30,7 @@ class Guzzle6Transport implements Transport
      */
     public function __construct(array $config = [], Client $client = null)
     {
-        $config = array_merge(['base_uri' => 'http://127.0.0.1:8200', 'http_errors' => false], $config);
+        $config = array_merge_recursive(['base_uri' => 'http://127.0.0.1:8200', 'http_errors' => false], $config);
 
         $this->client = $client ?: new Client($config);
     }
