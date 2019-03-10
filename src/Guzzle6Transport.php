@@ -126,6 +126,6 @@ class Guzzle6Transport implements Transport
      */
     public function getConfig($option = null)
     {
-        return $this->getConfig($option);
+        return $this->client->getConfig($option);
     }
 }
