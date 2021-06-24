@@ -1,0 +1,1 @@
+# ARCHIVED DUE TO PSR-18 SUPPORT IN `vault-php`
